@@ -1,7 +1,7 @@
 <?php 
 	session_start();
 	if (!empty($_SESSION['is_login'])) {
-		header('Location: http://localhost/hfzrmd/view/dashboard');
+		header('Location: http://localhost/minimarket/view/dashboard');
 		return;
 	}
  ?>
@@ -54,7 +54,7 @@
 </body>
 <script type="text/javascript">
 	$(document).ready(function() {
-		const base_url = "http://localhost/hfzrmd/";
+		const base_url = "http://localhost/minimarket/";
 		$("#form-login").submit(function(event) {
 			event.preventDefault();
 			$.post(base_url + 'handler/login.php', $("#form-login").serialize(), function(res) {

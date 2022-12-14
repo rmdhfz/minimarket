@@ -28,7 +28,7 @@
 				<button type="button" class="btn btn-sm btn-flat btn-primary waves-effect" data-toggle="modal" data-target="#modal-kasir" data-backdrop="static" data-keyboard="false">
 					Tambah
 				</button>
-				<a href="http://localhost/hfzrmd/view/dashboard" class="btn btn-default"> Kembali </a>
+				<a href="http://localhost/minimarket/view/dashboard" class="btn btn-default"> Kembali </a>
 			</h1> <hr>
 		</div>
 		<div class="table-responsive">
@@ -123,7 +123,7 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 
-		let table, baseurl = "http://localhost/hfzrmd/";
+		let table, baseurl = "http://localhost/minimarket/";
 		table = $("#table-kasir").DataTable();
 
 

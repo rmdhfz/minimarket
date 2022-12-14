@@ -7,7 +7,7 @@
 			$_SESSION['is_login'] = FALSE;
 			$_SESSION['login_at'] = FALSE;
 			session_destroy();
-			header('Location: http://localhost/hfzrmd/view');		
+			header('Location: http://localhost/minimarket/view');		
 		}else{
 			http_response_code(400);
 			return; // bad request
